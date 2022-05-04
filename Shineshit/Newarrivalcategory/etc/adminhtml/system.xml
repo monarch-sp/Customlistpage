@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<section id="catalog" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+			<label>Catalog</label>
+			<tab>catalog</tab>
+			<resource>Shineshit_Newarrivalcategory::config_abbacus_customproducts</resource>
+			<group id="customlistpage" sortOrder="500" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+				<label>BestSellers and Newarrivals</label>				
+				<field id="newarrivallimit" type="text" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Newarrivals Limit</label>
+					<comment>Default 100, Insert pure number value here</comment>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>
